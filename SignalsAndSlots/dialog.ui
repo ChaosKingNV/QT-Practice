@@ -13,17 +13,17 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QDialogButtonBox" name="buttonBox">
+  <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>140</y>
-     <width>167</width>
-     <height>29</height>
+     <x>120</x>
+     <y>100</y>
+     <width>171</width>
+     <height>71</height>
     </rect>
    </property>
-   <property name="standardButtons">
-    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   <property name="text">
+    <string>PushButton</string>
    </property>
   </widget>
  </widget>
